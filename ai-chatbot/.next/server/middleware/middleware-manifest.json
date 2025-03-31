@@ -1,0 +1,50 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/_3f9c0445._.js",
+        "server/edge/chunks/c1962_@auth_core_24d11657._.js",
+        "server/edge/chunks/990b6_jose_dist_browser_07bd57ff._.js",
+        "server/edge/chunks/node_modules__pnpm_de9a591c._.js",
+        "server/edge/chunks/[root of the server]__f29de07a._.js",
+        "server/edge/chunks/edge-wrapper_9b5da0ba.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/(/?index|/?index\\\\.json)?",
+          "originalSource": "/"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/:id{(\\\\.json)}?",
+          "originalSource": "/:id"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/api/:path*{(\\\\.json)}?",
+          "originalSource": "/api/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/login{(\\\\.json)}?",
+          "originalSource": "/login"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/register{(\\\\.json)}?",
+          "originalSource": "/register"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "48FTAr7upGRO0NtqOaWtNYJaE2oj8F57HVXO86z8zdg=",
+        "__NEXT_PREVIEW_MODE_ID": "cc510e91c6f354814ace61297b31c8f0",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "350a4b8af0fdd93a55809ccfc5a9ce3065e2f292267beefe15c8a8e38e37cc0b",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "255daba653bdf85272ae37a079d7bc1a7f7f36fb8500db347640cd71b428d15d"
+      }
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}
